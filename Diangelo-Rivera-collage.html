@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>College</title>
+<style type="text/css">
+		body {
+			background: red}
+
+		.container {
+			background: green;
+			min-height: 100vh;
+			display: grid;
+			grid-template-columns: 2fr 1fr 1fr 2fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-areas: 
+				"p1 p2 p2 p3"
+				"p4 p4 p5 p5"
+				"p6 p6 p6 p6";
+			grid-gap: 10px;
+			padding: 10px;
+		}
+
+		.item {
+			background: blue;
+			min-height: 100px;
+			min-width: 100px;
+		}
+
+		#photo1 {
+			grid-area: p1;
+			background: url(https://c1.staticflickr.com/6/5020/5537752633_c570f3b302_b.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo2 {
+			grid-area: p2;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8kN1sNrXlx1zhEt5eztqk8w_C7rD9vllM1r7Nu5Z4XhHPHGyf);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo3 {
+			grid-area: p3;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlNWy4YCG0HkULkYhWQfJozv2SMi8q3R03csuqnKXz2ba3DVOA);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo4 {
+			grid-area: p4;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4v6ZaRQFVnFPR0BP2rL6Q0Rb09KOXPxEWESy28f4jYdsVVto);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo5 {
+			grid-area: p5;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiK1qmSZRtXRP1XUO3uQXkKDYmThzhHcFrBfTcp5xyxOZq7RCqcw);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo6 {
+			grid-area: p6;
+			background: url(http://www.dancingdogblog.com/wp-content/uploads/2016/04/panoramic_down_stay-2.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item" id="photo1">
+			
+		</div>
+
+		<div class="item" id="photo2">
+			
+		</div>
+
+		<div class="item" id="photo3">
+			
+		</div>
+
+		<div class="item" id="photo4">
+			
+		</div>
+
+		<div class="item" id="photo5">
+			
+		</div>
+
+		<div class="item" id="photo6">
+			
+		</div>
+
+	</div>
+</body>
+</html
